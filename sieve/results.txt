@@ -1,0 +1,28 @@
+Tree:
+Average Iterations Per Epoch: 200.00
+Average Invalid Patches Per Epoch: 33.20
+Average Percentage of Invalid Patches: 16.60%
+Total Time: 12m 33.23s
+Average Time Per Epoch: 37.66s
+Average Time Per Iteration: 0.19s
+Average Iterations Per Second: 5.31
+Unique Best Patches: 4
+Best Patches:
+StmtInsertion({'target': ('sieve.py', 3), 'ingredient': ('sieve.py', 4), 'direction': 'before'}) | StmtReplacement({'target': ('sieve.py', 4), 'ingredient': ('sieve.py', 5)})
+StmtInsertion({'target': ('sieve.py', 3), 'ingredient': ('sieve.py', 4), 'direction': 'before'}) | StmtInsertion({'target': ('sieve.py', 4), 'ingredient': ('sieve.py', 5), 'direction': 'before'})
+StmtInsertion({'target': ('sieve.py', 3), 'ingredient': ('sieve.py', 4), 'direction': 'after'}) | StmtInsertion({'target': ('sieve.py', 4), 'ingredient': ('sieve.py', 5), 'direction': 'after'})
+StmtReplacement({'target': ('sieve.py', 3), 'ingredient': ('sieve.py', 4)})
+
+
+Line:
+Average Iterations Per Epoch: 200.00
+Average Invalid Patches Per Epoch: 82.80
+Average Percentage of Invalid Patches: 41.40%
+Total Time: 12m 3.72s
+Average Time Per Epoch: 36.19s
+Average Time Per Iteration: 0.18s
+Average Iterations Per Second: 5.53
+Unique Best Patches: 2
+Best Patches:
+LineReplacement({'target': ('sieve.py', 3), 'ingredient': ('sieve.py', 13)})
+LineDeletion({'target': ('sieve.py', 3)})

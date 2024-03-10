@@ -1,0 +1,17 @@
+*** before: lis.py
+--- after: lis.py
+***************
+*** 7,11 ****
+          length = max(prefix_lengths) if prefix_lengths else 0
+          if length == longest or val < arr[ends[length + 1]]:
+              ends[length + 1] = i
+!             longest = length + 1
+      return longest
+--- 7,13 ----
+          length = max(prefix_lengths) if prefix_lengths else 0
+          if length == longest or val < arr[ends[length + 1]]:
+              ends[length + 1] = i
+!             if length == longest or val < arr[ends[length + 1]]:
+!                 ends[length + 1] = i
+!                 longest = length + 1
+      return longest

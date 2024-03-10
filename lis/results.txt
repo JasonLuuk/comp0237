@@ -1,0 +1,27 @@
+Tree:
+Average Iterations Per Epoch: 75.05
+Average Invalid Patches Per Epoch: 6.30
+Average Percentage of Invalid Patches: 8.39%
+Total Time: 7m 59.12s
+Average Time Per Epoch: 23.96s
+Average Time Per Iteration: 0.32s
+Average Iterations Per Second: 3.13
+Unique Best Patches: 3
+Best Patches:
+StmtReplacement({'target': ('lis.py', 8), 'ingredient': ('lis.py', 6)})
+StmtInsertion({'target': ('lis.py', 6), 'ingredient': ('lis.py', 7), 'direction': 'before'})
+StmtInsertion({'target': ('lis.py', 5), 'ingredient': ('lis.py', 7), 'direction': 'after'})
+
+
+Line:
+Average Iterations Per Epoch: 164.35
+Average Invalid Patches Per Epoch: 71.95
+Average Percentage of Invalid Patches: 43.78%
+Total Time: 29m 47.67s
+Average Time Per Epoch: 89.38s
+Average Time Per Iteration: 0.54s
+Average Iterations Per Second: 1.84
+Unique Best Patches: 2
+Best Patches:
+LineInsertion({'target': ('lis.py', 12), 'ingredient': ('lis.py', 10), 'direction': 'before'})
+LineInsertion({'target': ('lis.py', 11), 'ingredient': ('lis.py', 10), 'direction': 'after'})

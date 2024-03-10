@@ -1,0 +1,26 @@
+Tree:
+Average Iterations Per Epoch: 54.45
+Average Invalid Patches Per Epoch: 7.90
+Average Percentage of Invalid Patches: 14.51%
+Total Time: 12m 16.26s
+Average Time Per Epoch: 36.81s
+Average Time Per Iteration: 0.68s
+Average Iterations Per Second: 1.48
+Unique Best Patches: 5
+Best Patches:
+StmtInsertion({'target': ('./wrap.py', 4), 'ingredient': ('./wrap.py', 2), 'direction': 'after'})
+StmtReplacement({'target': ('./wrap.py', 4), 'ingredient': ('./wrap.py', 2)})
+StmtInsertion({'target': ('./wrap.py', 3), 'ingredient': ('./wrap.py', 2), 'direction': 'after'})
+StmtReplacement({'target': ('./wrap.py', 3), 'ingredient': ('./wrap.py', 2)})
+StmtInsertion({'target': ('./wrap.py', 4), 'ingredient': ('./wrap.py', 2), 'direction': 'before'})
+
+
+Line:
+Average Iterations Per Epoch: 200.00
+Average Invalid Patches Per Epoch: 67.05
+Average Percentage of Invalid Patches: 33.52%
+Total Time: 47m 9.97s
+Average Time Per Epoch: 141.50s
+Average Time Per Iteration: 0.71s
+Average Iterations Per Second: 1.41
+Unique Best Patches: 0
